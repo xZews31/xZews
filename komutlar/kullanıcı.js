@@ -6,11 +6,11 @@ exports.run = async (client, message, args) => {
 
 const kullanıcı = new Discord.MessageEmbed()
 .setColor("RANDOM")
-.setAuthor("Destiny v12 sürümüyle yeniden sizlerle.")
-.setTitle("<a:Yldz:742698148329291826> Destiny Kullanıcı Komutları <a:Yldz:742698148329291826>")
+.setAuthor("Excellent v12 sürümüyle yeniden sizlerle.")
+.setTitle("<:s:798887741642506292> Excellent Kullanıcı Komutları <:s:798887741642506292>")
  .setTimestamp()
-.setDescription("<:s:798887741642506292> **-avatar** = Avatarınıza bakarsınız. <:s:798887741642506292> \n <:s:798887741642506292> **-yetkilerim** = Yetkilerini görürsün. <:s:798887741642506292> \n <:s:798887741642506292> **-profil** = Profilini görürsün. <:s:798887741642506292> \n <:s:798887741642506292> **-sunucuresmi** = Sunucu resmini gösterir. <:s:798887741642506292> \n <:s:798887741642506292> **-ping** = Botun Pingine Bakarsın. <:s:798887741642506292> \n <:s:798887741642506292> **-id** = Birisinin id'sine Bakarsın. <:s:798887741642506292> \n <:s:798887741642506292> **-davet** = Beni Sunucuna Ekle. <a:developeremoji:749525084586115153> \n <a:yan:750065080741134407> **-botbilgi** = Bot istatistiklerini görürsünüz. <a:developeremoji:749525084586115153> \n <a:yan:750065080741134407> **-bug-bildir** = Yazdığınız bug'u yapımcılarıma bildirir. <a:developeremoji:749525084586115153>")
-.setImage("https://cdn.discordapp.com/attachments/744536225230094360/751100899836821534/Night_Sky_Mountain_Decorative_Border_Youtube_Thumbnail.png")
+.setDescription("<:s:798887741642506292> **x!avatar** = Avatarınıza bakarsınız. <:s:798887741642506292> \n <:s:798887741642506292> **x!yetkilerim** = Yetkilerini görürsün. <:s:798887741642506292> \n <:s:798887741642506292> **x!profil** = Profilini görürsün. <:s:798887741642506292> \n <:s:798887741642506292> **x!sunucuresmi** = Sunucu resmini gösterir. <:s:798887741642506292> \n <:s:798887741642506292> **x!ping** = Botun Pingine Bakarsın. <:s:798887741642506292> \n <:s:798887741642506292> **x!id** = Birisinin id'sine Bakarsın. <:s:798887741642506292> \n <:s:798887741642506292> **x!davet** = Beni Sunucuna Ekle. <:s:798887741642506292> \n <:s:798887741642506292> **x!botbilgi** = Bot istatistiklerini görürsünüz. <:s:798887741642506292> \n <:s:798887741642506292> **x!bug-bildir** = Yazdığınız bug'u yapımcılarıma bildirir. <:s:798887741642506292>")
+.setImage("https://cdn.discordapp.com/attachments/798485372392439818/798889938087182376/excellent-sticker-excellent-rounded-isolated-sign-excellent-excellent-sticker-158772142.jpg")
 message.channel.send(kullanıcı)
 }
 
