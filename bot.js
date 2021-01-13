@@ -36,7 +36,7 @@ client.on("message", message => {
 client.on("ready", () => {
   console.log(`Bütün komutlar başarıyla yüklendi!`);
   client.user.setStatus("dnd");
-  client.user.setActivity('-yardım | -davet');
+  client.user.setActivity('x!yardım | x!davet');
 })
 
 
@@ -159,6 +159,7 @@ client.on("messageUpdate", msg => {
                        "amk", 
                        "ananı sik iyim",
                        "piç",
+                       "sg",
                        "orospu çocuğu",
                        "orospu",
                        "oruspu"];

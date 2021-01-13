@@ -11,7 +11,7 @@ module.exports.run = async(client, message, args) => {
     .setTitle('<a:hypesquad:742698007262396426> İstatistik;')
     .addField('<a:hypesquad:742698007262396426> Gecikme: ', client.ws.ping + 'ms')
     .addField('<a:hypesquad:742698007262396426> Çalışma Süresi: ', `${duration}`)
-    .addField('<a:hypesquad:742698007262396426> Kullanıcılar:', client.users.cache.size)
+    .addField(':hypesquad: Kullanıcılar:', client.users.cache.size)
     .addField('<a:hypesquad:742698007262396426> Kanallar:', client.channels.cache.size)
     .addField('<a:hypesquad:742698007262396426> Sunucular:', client.guilds.cache.size)
     .addField('<a:hypesquad:742698007262396426> Bellek kullanımı:', (process.memoryUsage().heapUsed / 2048 / 2048).toFixed(2))
