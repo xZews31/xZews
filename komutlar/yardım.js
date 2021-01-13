@@ -6,10 +6,10 @@ exports.run = async (client, message, args) => {
 
 const yardım = new Discord.MessageEmbed()
 .setColor("BLUE")
-.setAuthor("Destiny v12 sürümüyle yeniden sizlerle.")
-.setTitle("<a:zil:796394115628662826>Destiny'in yardım menüsüne hoşgeldin! <a:zil:796394115628662826>")
+.setAuthor("Excellent  v12 Sürümüyle Yeniden Sizlerle.")
+.setTitle("<a:zil:796394115628662826>Excellent Botun'un Yardım Menüsüne Hoşgeldin! <a:zil:796394115628662826>")
  .setTimestamp()
-.setDescription("<a:destinyhype:751090021859196968> **-eğlence** = __Eğlence komutlarını görüntülersiniz.__ \n <a:ayarlardestiny:751089592245158030> **-moderasyon** = __Moderasyon komutlarını görüntülersiniz.__ \n <a:partnerdestiny:751089594694631465> **-kullanıcı** = __Kullanıcı komutlarını görüntülersiniz.__ \n <a:Yldz:742698148329291826> **-logo** = __Logo komutlarını görüntülersiniz.__")
+.setDescription("<a:zill:798886583737647104> **-eğlence** = __Eğlence Komutlarını Görüntülersiniz.__ \n <a:ayarlardestiny:798886582076702741> **-moderasyon** = __Moderasyon komutlarını görüntülersiniz.__ \n <:membericonpng21:798887741642506292> **-kullanıcı** = __Kullanıcı komutlarını görüntülersiniz.__ \n <a:Yldz:742698148329291826> **-logo** = __Logo komutlarını görüntülersiniz.__")
 .setImage("https://cdn.discordapp.com/attachments/744536225230094360/751100899836821534/Night_Sky_Mountain_Decorative_Border_Youtube_Thumbnail.png")
 message.channel.send(yardım)
 }
