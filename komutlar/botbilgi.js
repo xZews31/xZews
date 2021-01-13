@@ -11,7 +11,7 @@ module.exports.run = async(client, message, args) => {
     .setTitle('<a:zil:796394115628662826> İstatistik;')
     .addField('<a:zil:796394115628662826> Gecikme: ', client.ws.ping + 'ms')
     .addField('<a:zil:796394115628662826> Çalışma Süresi: ', `${duration}`)
-    .addField('<a:zil:796394115628662826> Kullanıcılar:', client.users.cache.size)
+    .addField('<a:zil:796394115628662826> Kullanıcılar:', 5.159)
     .addField('<a:zil:796394115628662826> Kanallar:', client.channels.cache.size)
     .addField('<a:zil:796394115628662826> Sunucular:', client.guilds.cache.size)
     .addField('<a:zil:796394115628662826> Bellek kullanımı:', (process.memoryUsage().heapUsed / 2048 / 2048).toFixed(2))
