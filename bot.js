@@ -201,4 +201,4 @@ client.on("message", async msg => {
  
     });
 
-client.login(ayarlar.token)
+client.login(process.env.token)
